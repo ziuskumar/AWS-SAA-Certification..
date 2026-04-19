@@ -1,0 +1,85 @@
+# 📍 Day 1 — IAM & EC2
+
+## 🎯 Objective
+
+Build a strong foundation of AWS by understanding **IAM (security)** and **EC2 (compute)**.
+
+---
+
+## 🔐 IAM (Identity & Access Management)
+
+### 📌 Core Concepts
+
+* **Users** → Individual identities (one per person)
+* **Groups** → Collection of users with shared permissions
+* **Roles** → Temporary access (used by AWS services or external users)
+
+### 📌 Policies
+
+* Written in **JSON format**
+* Define permissions (Allow / Deny)
+* Attached to users, groups, or roles
+
+### 📌 Best Practices
+
+* Follow **Principle of Least Privilege**
+* Enable **MFA (Multi-Factor Authentication)**
+* Avoid using root account for daily tasks
+
+---
+
+## 🖥️ EC2 (Elastic Compute Cloud)
+
+### 📌 What is EC2?
+
+* Virtual servers in the cloud
+* Scalable, flexible, pay-as-you-go
+
+### 📌 Key Components
+
+* **Instance Types** → Compute, Memory, General Purpose
+* **Security Groups** → Act as firewall
+* **Key Pairs** → Used for secure login
+
+### 📌 Storage Options
+
+* **EBS (Elastic Block Store)** → Persistent storage
+* **Instance Store** → Temporary storage (lost on stop/terminate)
+
+---
+
+## ⚖️ Important Comparison
+
+| Feature     | EBS               | Instance Store |
+| ----------- | ----------------- | -------------- |
+| Persistence | ✅ Yes             | ❌ No           |
+| Data Safety | High              | Low            |
+| Use Case    | Long-term storage | Temporary data |
+
+---
+
+## 💡 Key Learnings
+
+* IAM is the backbone of AWS security
+* EC2 is the foundation for cloud computing
+* Security + scalability are core principles in AWS
+
+---
+
+## 🚧 Challenges Faced
+
+* Understanding difference between **Roles vs Users**
+* Remembering EC2 components clearly
+
+---
+
+## 🔁 Revision Plan
+
+* Revise this on **Day 3, Day 6, Day 10** (1-3-6 rule)
+
+---
+
+## ⚡ Status
+
+✅ Day 1 Completed
+⏳ 44 Days Remaining
