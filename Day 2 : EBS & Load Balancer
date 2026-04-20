@@ -1,0 +1,89 @@
+# 📍 Day 2 — EBS, EFS & Load Balancers
+
+## 🎯 Objective
+
+Understand AWS storage solutions and how traffic is distributed in scalable systems.
+
+---
+
+## 💾 EBS (Elastic Block Store)
+
+### 📌 Key Points
+
+* Block storage attached to EC2
+* Persistent (data survives reboot)
+* Types: SSD (fast), HDD (cheap)
+
+### 📌 Use Cases
+
+* Databases
+* Operating systems
+* Applications requiring low latency
+
+---
+
+## 📂 EFS (Elastic File System)
+
+### 📌 Key Points
+
+* Managed file storage (like shared drive)
+* Can be accessed by multiple EC2 instances
+* Automatically scales
+
+### 📌 Use Cases
+
+* Shared content (web servers)
+* Distributed applications
+
+---
+
+## ⚖️ EBS vs EFS
+
+| Feature     | EBS           | EFS            |
+| ----------- | ------------- | -------------- |
+| Type        | Block storage | File storage   |
+| Usage       | Single EC2    | Multiple EC2   |
+| Scalability | Manual        | Automatic      |
+| Use Case    | Databases     | Shared systems |
+
+---
+
+## 🌐 Load Balancers
+
+### 📌 Purpose
+
+* Distribute traffic across multiple EC2 instances
+* Improve availability and fault tolerance
+
+### 📌 Types (Overview)
+
+* **ALB (Application Load Balancer)** → HTTP/HTTPS traffic
+* **NLB (Network Load Balancer)** → TCP/UDP, high performance
+
+---
+
+## 💡 Key Learnings
+
+* EBS = performance-focused storage
+* EFS = scalable shared storage
+* Load balancing is critical for high availability
+
+---
+
+## 🚧 Challenges Faced
+
+* Differentiating EBS vs EFS use cases
+* Understanding load balancer types
+
+---
+
+## 🔁 Revision Plan
+
+* Revise on Day 4, Day 7, Day 12
+
+---
+
+## ⚡ Status
+
+✅ Day 2 Completed
+⏳ 43 Days Remaining
