@@ -1,0 +1,89 @@
+# 📍 Day 3 — RDS & ElastiCache
+
+## 🎯 Objective
+
+Understand managed databases and caching for performance optimization in AWS.
+
+---
+
+## 🗄️ RDS (Relational Database Service)
+
+### 📌 Key Features
+
+* Managed relational databases (MySQL, PostgreSQL, etc.)
+* Automated backups & maintenance
+* Supports scaling
+
+### 📌 High Availability
+
+* **Multi-AZ**
+
+  * Standby replica in another AZ
+  * Automatic failover
+
+### 📌 Scalability
+
+* **Read Replicas**
+
+  * Used to handle read-heavy workloads
+  * Improves performance
+
+---
+
+## ⚡ ElastiCache
+
+### 📌 What is it?
+
+* In-memory caching service
+* Speeds up applications by reducing DB load
+
+### 📌 Engines
+
+* **Redis**
+
+  * Supports persistence
+  * Advanced features
+
+* **Memcached**
+
+  * Simpler, distributed caching
+  * No persistence
+
+---
+
+## ⚖️ RDS vs ElastiCache
+
+| Feature  | RDS             | ElastiCache           |
+| -------- | --------------- | --------------------- |
+| Type     | Database        | Cache                 |
+| Storage  | Disk-based      | In-memory             |
+| Speed    | Slower          | Very fast             |
+| Use Case | Persistent data | Temporary fast access |
+
+---
+
+## 💡 Key Learnings
+
+* RDS ensures reliability and structured data storage
+* ElastiCache improves performance and reduces latency
+* Using both together creates efficient architectures
+
+---
+
+## 🚧 Challenges Faced
+
+* Understanding Multi-AZ vs Read Replicas
+* Differentiating Redis vs Memcached
+
+---
+
+## 🔁 Revision Plan
+
+* Revise on Day 5, Day 8, Day 13
+
+---
+
+## ⚡ Status
+
+✅ Day 3 Completed
+⏳ 42 Days Remaining
