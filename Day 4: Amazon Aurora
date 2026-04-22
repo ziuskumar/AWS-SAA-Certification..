@@ -1,0 +1,85 @@
+# 📍 Day 4 — Amazon Aurora
+
+## 🎯 Objective
+
+Understand how Amazon Aurora improves performance, scalability, and availability compared to traditional RDS.
+
+---
+
+## ⚡ Amazon Aurora
+
+### 📌 What is Aurora?
+
+* Fully managed relational database by AWS
+* Compatible with **MySQL** and **PostgreSQL**
+* Designed for **high performance and scalability**
+
+---
+
+## 🚀 Key Features
+
+* **High Performance**
+
+  * Up to 5x faster than MySQL
+  * Optimized for cloud workloads
+
+* **Auto-Scaling Storage**
+
+  * Automatically grows as data increases
+  * No manual intervention required
+
+* **High Availability**
+
+  * Multi-AZ by default
+  * Automatic failover
+
+* **Read Scalability**
+
+  * Supports up to **15 Read Replicas**
+
+---
+
+## 🏗️ Aurora Architecture (Important)
+
+* Data is stored across **multiple Availability Zones**
+* 6 copies of data (for durability)
+* Self-healing storage system
+
+---
+
+## ⚖️ Aurora vs RDS
+
+| Feature         | RDS               | Aurora    |
+| --------------- | ----------------- | --------- |
+| Performance     | Standard          | High      |
+| Storage Scaling | Manual            | Automatic |
+| Read Replicas   | Limited           | Up to 15  |
+| Availability    | Multi-AZ optional | Built-in  |
+
+---
+
+## 💡 Key Learnings
+
+* Aurora is designed for **production-grade applications**
+* Combines performance + availability + scalability
+* Preferred over RDS when handling **high traffic systems**
+
+---
+
+## 🚧 Challenges Faced
+
+* Understanding Aurora architecture (multi-copy storage)
+* Differentiating when to use Aurora vs standard RDS
+
+---
+
+## 🔁 Revision Plan
+
+* Revise on Day 6, Day 9, Day 14
+
+---
+
+## ⚡ Status
+
+✅ Day 4 Completed
+⏳ 41 Days Remaining
