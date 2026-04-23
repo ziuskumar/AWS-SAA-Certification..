@@ -1,0 +1,77 @@
+# 📍 Day 5 — Route 53
+
+## 🎯 Objective
+
+Understand DNS and how AWS Route 53 manages traffic routing and high availability.
+
+---
+
+## 🌐 What is Route 53?
+
+* AWS DNS service
+* Translates domain names into IP addresses
+* Highly available and scalable
+
+---
+
+## 📌 Key Components
+
+### 🔹 Hosted Zones
+
+* Container for DNS records
+* Public & Private hosted zones
+
+### 🔹 DNS Records
+
+* A Record → maps domain to IP
+* CNAME → maps domain to another domain
+* Alias → maps to AWS resources
+
+---
+
+## 🔀 Routing Policies
+
+### 1. Simple Routing
+
+* One resource → direct traffic
+
+### 2. Weighted Routing
+
+* Split traffic based on percentage
+
+### 3. Latency-Based Routing
+
+* Routes user to nearest region
+
+### 4. Failover Routing
+
+* Active-passive setup
+* Used for disaster recovery
+
+---
+
+## 💡 Key Learnings
+
+* Route 53 is critical for **global applications**
+* Enables high availability through routing strategies
+* Works closely with load balancers and multi-region setups
+
+---
+
+## 🚧 Challenges Faced
+
+* Understanding different routing policies
+* When to use each routing strategy
+
+---
+
+## 🔁 Revision Plan
+
+* Revise on Day 7, Day 10, Day 15
+
+---
+
+## ⚡ Status
+
+✅ Day 5 Completed
+⏳ 40 Days Remaining
