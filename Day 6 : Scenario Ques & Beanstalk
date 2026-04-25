@@ -1,0 +1,76 @@
+ # 📍 Day 6 — Scenario Practice & Elastic Beanstalk
+
+## 🎯 Objective
+
+Apply AWS concepts to real-world scenarios and understand application deployment using Elastic Beanstalk.
+
+---
+
+## 🧠 Scenario-Based Learning
+
+### 📌 Focus Areas
+
+* Designing high availability systems
+* Choosing correct storage solutions (EBS, EFS, S3)
+* Scaling using Auto Scaling Groups
+* Traffic distribution using Load Balancers
+* Database optimization using RDS, Aurora, ElastiCache
+
+---
+
+### 💡 Key Insight
+
+* AWS exam questions are **scenario-based**
+* Understanding *when to use what* is more important than memorizing services
+
+---
+
+## ⚙️ Elastic Beanstalk
+
+### 📌 What is it?
+
+* Platform as a Service (PaaS)
+* Simplifies application deployment
+
+---
+
+### 📌 Key Features
+
+* Automatic provisioning (EC2, Load Balancer, ASG)
+* Auto scaling & monitoring
+* Easy deployment
+
+---
+
+### 📌 When to Use
+
+* When focusing on application logic
+* When avoiding infrastructure management
+
+---
+
+## 💡 Key Learnings
+
+* Scenario practice improves decision-making skills
+* AWS services must be combined intelligently
+* Beanstalk abstracts infrastructure complexity
+
+---
+
+## 🚧 Challenges Faced
+
+* Selecting the best service under constraints
+* Understanding trade-offs (cost vs performance vs availability)
+
+---
+
+## 🔁 Revision Plan
+
+* Continue scenario-based revision
+
+---
+
+## ⚡ Status
+
+✅ Day 6 Completed
+⏳ 39 Days Remaining
