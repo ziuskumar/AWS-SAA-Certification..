@@ -1,0 +1,93 @@
+# 📍 Day 7 — S3 & Advanced S3
+
+## 🎯 Objective
+
+Understand Amazon S3 and advanced storage features for durability, security, and cost optimization.
+
+---
+
+## 📦 Amazon S3 (Simple Storage Service)
+
+### 📌 Key Features
+
+* Object storage service
+* Unlimited storage
+* 99.999999999% durability
+* Highly scalable
+
+---
+
+## 📂 Storage Classes
+
+* **S3 Standard**
+
+  * Frequently accessed data
+
+* **S3 IA (Infrequent Access)**
+
+  * Lower cost, less frequent usage
+
+* **S3 Glacier**
+
+  * Archival storage
+  * Very low cost
+
+---
+
+## 🔁 Lifecycle Policies
+
+* Automatically move data between storage classes
+* Helps reduce storage cost
+
+---
+
+## 🗂️ Versioning
+
+* Keeps multiple versions of objects
+* Protects against accidental deletion
+
+---
+
+## 🔐 Security
+
+* IAM Policies
+* Bucket Policies
+* Pre-signed URLs (temporary access)
+
+---
+
+## ⚖️ Key Concepts
+
+| Feature      | Description   |
+| ------------ | ------------- |
+| Durability   | 99.999999999% |
+| Scalability  | Unlimited     |
+| Storage Type | Object-based  |
+
+---
+
+## 💡 Key Learnings
+
+* S3 is foundational for many AWS services
+* Lifecycle policies help in cost optimization
+* Versioning improves data safety
+
+---
+
+## 🚧 Challenges Faced
+
+* Remembering storage classes
+* Understanding lifecycle transitions
+
+---
+
+## 🔁 Revision Plan
+
+* Revise on Day 9, Day 12, Day 18
+
+---
+
+## ⚡ Status
+
+✅ Day 7 Completed
+⏳ 38 Days Remaining
