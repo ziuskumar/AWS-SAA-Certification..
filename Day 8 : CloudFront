@@ -1,0 +1,84 @@
+# 📍 Day 8 — CloudFront
+
+## 🎯 Objective
+
+Understand how CloudFront improves performance using CDN and caching mechanisms.
+
+---
+
+## 🌍 What is CloudFront?
+
+* AWS Content Delivery Network (CDN)
+* Delivers content with low latency
+* Uses global edge locations
+
+---
+
+## 📌 Key Components
+
+### 🔹 Edge Locations
+
+* Cache content closer to users
+* Reduce response time
+
+---
+
+### 🔹 Origin
+
+* Source of content
+* Can be:
+
+  * S3 bucket
+  * EC2 instance
+  * Load Balancer
+
+---
+
+### 🔹 Caching
+
+* Stores frequently accessed data
+* Reduces load on origin
+* Improves performance
+
+---
+
+## 🔐 Security
+
+* Supports HTTPS
+* Can restrict access using signed URLs
+
+---
+
+## ⚖️ Key Benefits
+
+* Low latency
+* High data transfer speed
+* Reduced load on backend
+
+---
+
+## 💡 Key Learnings
+
+* CDN is essential for global applications
+* CloudFront works best with S3 + Route 53
+* Caching significantly improves performance
+
+---
+
+## 🚧 Challenges Faced
+
+* Understanding caching behavior
+* Visualizing edge location flow
+
+---
+
+## 🔁 Revision Plan
+
+* Revise on Day 10, Day 13, Day 19
+
+---
+
+## ⚡ Status
+
+✅ Day 8 Completed
+⏳ 37 Days Remaining
