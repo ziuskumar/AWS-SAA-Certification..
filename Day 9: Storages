@@ -1,0 +1,89 @@
+# 📍 Day 9 — Storage Overview, Classes & FSx
+
+## 🎯 Objective
+
+Understand AWS storage services and choose the right one based on performance, cost, and use case.
+
+---
+
+## 📦 Storage Types in AWS
+
+### 🔹 S3 (Object Storage)
+
+* Scalable and durable
+* Used for files, backups, static content
+
+---
+
+### 🔹 EBS (Block Storage)
+
+* Attached to EC2
+* High performance
+* Persistent storage
+
+---
+
+### 🔹 EFS (File Storage)
+
+* Shared across multiple EC2 instances
+* Automatically scalable
+
+---
+
+### 🔹 FSx (Managed File Systems)
+
+* Fully managed file systems
+* Types:
+
+  * FSx for Windows File Server
+  * FSx for Lustre
+  * FSx for NetApp ONTAP
+  * FSx for OpenZFS
+
+---
+
+## 📂 S3 Storage Classes
+
+* **Standard** → frequent access
+* **Standard-IA** → infrequent access
+* **Glacier** → archival storage
+* **Intelligent-Tiering** → automatic tiering
+
+---
+
+## ⚖️ Storage Comparison
+
+| Storage | Type               | Use Case             |
+| ------- | ------------------ | -------------------- |
+| S3      | Object             | Files, backups       |
+| EBS     | Block              | EC2 storage          |
+| EFS     | File               | Shared systems       |
+| FSx     | File (specialized) | Enterprise workloads |
+
+---
+
+## 💡 Key Learnings
+
+* Different storage types solve different problems
+* FSx is used for **specialized enterprise workloads**
+* S3 classes help optimize cost
+
+---
+
+## 🚧 Challenges Faced
+
+* Differentiating EFS vs FSx
+* Understanding when to use which storage
+
+---
+
+## 🔁 Revision Plan
+
+* Revise on Day 11, Day 14, Day 20
+
+---
+
+## ⚡ Status
+
+✅ Day 9 Completed
+⏳ 36 Days Remaining
