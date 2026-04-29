@@ -1,0 +1,50 @@
+# 📍 Day 10 — Revision (Storage Topics)
+
+## 🎯 Objective
+
+Reinforce understanding of AWS storage services.
+
+---
+
+## 🔁 Topics Revised
+
+### 📦 S3
+
+* Storage classes (Standard, IA, Glacier, Intelligent-Tiering)
+* Lifecycle policies
+
+---
+
+### 💾 EBS
+
+* Block storage for EC2
+* Persistent & high performance
+
+---
+
+### 📂 EFS
+
+* Shared file storage
+* Scalable
+
+---
+
+### ⚙️ FSx
+
+* Managed file systems
+* Used for specialized workloads
+
+---
+
+## 💡 Key Learnings
+
+* Revision improves retention
+* Storage selection depends on use case
+* Concepts are becoming clearer
+
+---
+
+## ⚡ Status
+
+✅ Day 10 Completed
+⏳ 35 Days Remaining
