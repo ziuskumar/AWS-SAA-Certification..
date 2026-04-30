@@ -1,0 +1,98 @@
+# 📍 Day 11 — Decoupling (SQS, SNS, Kinesis, MQ)
+
+## 🎯 Objective
+
+Understand how AWS services help decouple applications for scalability and reliability.
+
+---
+
+## 🔗 What is Decoupling?
+
+* Breaking tight dependencies between services
+* Allows independent scaling and failure handling
+
+---
+
+## 📩 SQS (Simple Queue Service)
+
+### 📌 Key Features
+
+* Message queue
+* Decouples producer & consumer
+* Supports:
+
+  * Standard Queue (high throughput)
+  * FIFO Queue (ordered, no duplicates)
+
+---
+
+## 📢 SNS (Simple Notification Service)
+
+### 📌 Key Features
+
+* Pub/Sub messaging
+* Sends messages to multiple subscribers
+* Can trigger:
+
+  * SQS
+  * Lambda
+  * Email/SMS
+
+---
+
+## 📊 Kinesis
+
+### 📌 Key Features
+
+* Real-time data streaming
+* Handles large-scale data ingestion
+* Used for analytics pipelines
+
+---
+
+## 🔌 Amazon MQ
+
+### 📌 Key Features
+
+* Managed message broker
+* Supports ActiveMQ / RabbitMQ
+* Useful for migrating legacy systems
+
+---
+
+## ⚖️ Comparison
+
+| Service | Use Case               |
+| ------- | ---------------------- |
+| SQS     | Queue-based decoupling |
+| SNS     | Pub/Sub notifications  |
+| Kinesis | Real-time streaming    |
+| MQ      | Legacy messaging       |
+
+---
+
+## 💡 Key Learnings
+
+* Decoupling improves scalability & fault tolerance
+* SQS + SNS combination is very common
+* Kinesis is used for real-time big data
+
+---
+
+## 🚧 Challenges Faced
+
+* Understanding differences between SQS vs SNS
+* When to use Kinesis vs SQS
+
+---
+
+## 🔁 Revision Plan
+
+* Revise on Day 13, Day 16, Day 22
+
+---
+
+## ⚡ Status
+
+✅ Day 11 Completed
+⏳ 34 Days Remaining
