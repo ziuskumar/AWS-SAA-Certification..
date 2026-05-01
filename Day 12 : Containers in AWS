@@ -1,0 +1,91 @@
+# 📍 Day 12 — Containers in AWS
+
+## 🎯 Objective
+
+Understand container-based application deployment in AWS.
+
+---
+
+## 🐳 What are Containers?
+
+* Lightweight application packaging
+* Include code + dependencies
+* Portable across environments
+
+---
+
+## ⚙️ ECS (Elastic Container Service)
+
+### 📌 Key Features
+
+* AWS-managed container orchestration
+* Simpler than Kubernetes
+* Integrates with AWS services
+
+---
+
+## 🚀 EKS (Elastic Kubernetes Service)
+
+### 📌 Key Features
+
+* Managed Kubernetes
+* Industry standard
+* More control, more complexity
+
+---
+
+## 📦 Fargate
+
+### 📌 Key Features
+
+* Serverless container execution
+* No infrastructure management
+* Works with ECS & EKS
+
+---
+
+## 🗂️ ECR (Elastic Container Registry)
+
+### 📌 Key Features
+
+* Stores Docker images
+* Secure & scalable
+
+---
+
+## ⚖️ Comparison
+
+| Service | Use Case                       |
+| ------- | ------------------------------ |
+| ECS     | Simple container orchestration |
+| EKS     | Kubernetes-based control       |
+| Fargate | Serverless containers          |
+| ECR     | Image storage                  |
+
+---
+
+## 💡 Key Learnings
+
+* Containers improve portability
+* ECS is simpler, EKS is more powerful
+* Fargate removes infrastructure management
+
+---
+
+## 🚧 Challenges Faced
+
+* Understanding ECS vs EKS difference
+* When to use Fargate vs EC2
+
+---
+
+## 🔁 Revision Plan
+
+* Revise on Day 14, Day 17, Day 23
+
+---
+
+## ⚡ Status
+
+✅ Day 12 Completed
+⏳ 33 Days Remaining
