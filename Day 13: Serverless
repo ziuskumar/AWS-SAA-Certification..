@@ -1,0 +1,85 @@
+# 📍 Day 13 — Serverless Services
+
+## 🎯 Objective
+
+Understand serverless architecture and key AWS services used to build scalable applications.
+
+---
+
+## ⚡ What is Serverless?
+
+* No infrastructure management
+* Pay only for usage
+* Automatically scalable
+
+---
+
+## 🧠 AWS Lambda
+
+### 📌 Key Features
+
+* Run code without servers
+* Event-driven execution
+* Supports multiple languages
+
+---
+
+## 🌐 API Gateway
+
+### 📌 Key Features
+
+* Create REST APIs
+* Connects frontend to backend services
+* Works with Lambda
+
+---
+
+## 📦 S3 (Serverless Use)
+
+* Static website hosting
+* Can trigger Lambda functions
+
+---
+
+## 📊 DynamoDB
+
+### 📌 Key Features
+
+* NoSQL database
+* Fully managed
+* High performance
+
+---
+
+## ⚖️ Architecture Flow
+
+Client → API Gateway → Lambda → DynamoDB
+(Optional: S3 for storage)
+
+---
+
+## 💡 Key Learnings
+
+* Serverless reduces operational overhead
+* Lambda + API Gateway is a common pattern
+* DynamoDB fits well in serverless architecture
+
+---
+
+## 🚧 Challenges Faced
+
+* Understanding event-driven flow
+* When to use serverless vs EC2
+
+---
+
+## 🔁 Revision Plan
+
+* Revise on Day 15, Day 18, Day 24
+
+---
+
+## ⚡ Status
+
+✅ Day 13 Completed
+⏳ 32 Days Remaining
