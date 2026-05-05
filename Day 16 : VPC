@@ -1,0 +1,70 @@
+# 📍 Day 16 — VPC (Getting Started)
+
+## 🎯 Objective
+
+Understand the basics of networking in AWS using VPC.
+
+---
+
+## 🌐 What is VPC?
+
+* Virtual Private Cloud
+* Isolated network inside AWS
+* Control over IP range, subnets, routing
+
+---
+
+## 📌 Key Concepts
+
+### 🔹 CIDR Block
+
+* Defines IP range of VPC
+
+---
+
+### 🔹 Subnets
+
+* **Public Subnet**
+
+  * Has internet access
+
+* **Private Subnet**
+
+  * No direct internet access
+
+---
+
+### 🔹 Internet Gateway (IGW)
+
+* Allows communication with the internet
+* Attached to VPC
+
+---
+
+## 💡 Key Learnings
+
+* VPC is the foundation of AWS networking
+* Public vs Private subnet is critical concept
+* Networking is essential for architecture design
+
+---
+
+## 🚧 Challenges Faced
+
+* Understanding CIDR notation
+* Visualizing subnet structure
+
+---
+
+## 🔁 Next Step
+
+* Route Tables
+* NAT Gateway
+* Security Groups vs NACL
+
+---
+
+## ⚡ Status
+
+✅ Day 16 Completed
+⏳ 30 Days Remaining
