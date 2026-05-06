@@ -1,0 +1,93 @@
+# 📍 Day 17 — VPC (Deep Dive - Part 1)
+
+## 🎯 Objective
+
+Understand core networking components inside AWS VPC.
+
+---
+
+## 📌 Topics Covered
+
+### 🔹 CIDR & IP Addressing
+
+* Defines IP range of VPC
+* Important for subnet planning
+
+---
+
+### 🔹 Public vs Private IP
+
+* Public IP → accessible from internet
+* Private IP → internal communication
+
+---
+
+### 🔹 Default VPC vs Custom VPC
+
+* Default → ready-to-use
+* Custom → full control over networking
+
+---
+
+### 🔹 Subnets
+
+* Public Subnet → internet accessible
+* Private Subnet → no direct internet
+
+---
+
+### 🔹 Internet Gateway (IGW)
+
+* Enables internet access
+* Attached to VPC
+
+---
+
+### 🔹 Route Tables
+
+* Controls traffic routing
+* Defines paths (local / internet)
+
+---
+
+### 🔹 Bastion Host
+
+* Used to securely access private instances
+* Acts as jump server
+
+---
+
+### 🔹 NAT Instance
+
+* Allows private subnet instances to access internet
+* No inbound internet access
+
+---
+
+## 💡 Key Learnings
+
+* Networking defines architecture behavior
+* Public vs Private subnet is critical
+* Routing + gateways control traffic flow
+
+---
+
+## 🚧 Challenges Faced
+
+* Understanding routing flow
+* Visualizing subnet + gateway connections
+
+---
+
+## 🔁 Next Step
+
+* NAT Gateway
+* Security Groups vs NACL
+* VPC Peering
+
+---
+
+## ⚡ Status
+
+✅ Day 17 Completed
+⏳ 29 Days Remaining
