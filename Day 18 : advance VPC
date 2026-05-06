@@ -1,0 +1,88 @@
+# 📍 Day 18 — NAT Gateway & Direct Connect
+
+## 🎯 Objective
+
+Understand advanced networking and hybrid connectivity in AWS.
+
+---
+
+## 🌐 NAT Gateway
+
+### 📌 What is NAT Gateway?
+
+* Managed AWS service
+* Allows instances in private subnet to access the internet
+* Prevents inbound internet traffic
+
+---
+
+### 📌 Key Features
+
+* Highly available within an AZ
+* Scalable
+* Preferred over NAT Instance
+
+---
+
+## 🔌 AWS Direct Connect
+
+### 📌 What is Direct Connect?
+
+* Dedicated private connection to AWS
+* Connects on-premises data center to AWS
+
+---
+
+### 📌 Benefits
+
+* Lower latency
+* Stable network performance
+* More secure than internet-based connection
+
+---
+
+### 📌 Common Use Cases
+
+* Hybrid cloud architecture
+* Enterprise workloads
+* Large-scale data transfer
+
+---
+
+## ⚖️ NAT Gateway vs NAT Instance
+
+| Feature      | NAT Gateway | NAT Instance |
+| ------------ | ----------- | ------------ |
+| Managed      | ✅ Yes       | ❌ No         |
+| Scalability  | Automatic   | Manual       |
+| Availability | High        | Lower        |
+
+---
+
+## 💡 Key Learnings
+
+* NAT Gateway is modern & preferred solution
+* Direct Connect is critical for hybrid cloud setups
+* Networking design impacts security and performance
+
+---
+
+## 🚧 Challenges Faced
+
+* Understanding hybrid networking flow
+* Differentiating VPN vs Direct Connect
+
+---
+
+## 🔁 Next Step
+
+* Security Groups vs NACL
+* VPC Peering
+* Transit Gateway
+
+---
+
+## ⚡ Status
+
+✅ Day 18 Completed
+⏳ 28 Days Remaining
