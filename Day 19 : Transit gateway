@@ -1,0 +1,87 @@
+# 📍 Day 19 — Transit Gateway, Traffic Mirroring & VGW
+
+## 🎯 Objective
+
+Understand advanced networking services for scalable and secure AWS architectures.
+
+---
+
+## 🌐 Transit Gateway
+
+### 📌 What is it?
+
+* Central networking hub in AWS
+* Connects multiple VPCs and on-premises networks
+
+---
+
+### 📌 Benefits
+
+* Simplifies architecture
+* Reduces peering complexity
+* Scalable connectivity
+
+---
+
+## 📡 VPC Traffic Mirroring
+
+### 📌 What is it?
+
+* Captures network traffic from EC2 instances
+* Used for:
+
+  * Monitoring
+  * Security inspection
+  * Troubleshooting
+
+---
+
+## 🔌 VGW (Virtual Private Gateway)
+
+### 📌 What is it?
+
+* VPN concentrator on AWS side
+* Enables secure connection between:
+
+  * On-premises network
+  * AWS VPC
+
+---
+
+## ⚖️ Key Concepts
+
+| Service           | Purpose                  |
+| ----------------- | ------------------------ |
+| Transit Gateway   | Centralized connectivity |
+| Traffic Mirroring | Network monitoring       |
+| VGW               | VPN connectivity         |
+
+---
+
+## 💡 Key Learnings
+
+* Transit Gateway simplifies large-scale networking
+* Traffic visibility is important for security
+* Hybrid connectivity is a major AWS use case
+
+---
+
+## 🚧 Challenges Faced
+
+* Understanding network flow between components
+* Differentiating peering vs Transit Gateway
+
+---
+
+## 🔁 Next Step
+
+* Security Groups vs NACL
+* VPC Peering
+* Hybrid networking revision
+
+---
+
+## ⚡ Status
+
+✅ Day 19 Completed
+⏳ 27 Days Remaining
