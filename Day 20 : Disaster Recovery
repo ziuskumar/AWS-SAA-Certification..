@@ -1,0 +1,110 @@
+# 📍 Day 20 — Disaster Recovery
+
+## 🎯 Objective
+
+Understand Disaster Recovery (DR) strategies in AWS and how they balance cost, availability, and recovery speed.
+
+---
+
+## 💥 What is Disaster Recovery?
+
+* Planning system recovery after failure/disaster
+* Ensures business continuity
+
+---
+
+## 📌 DR Strategies
+
+### 🟢 Backup & Restore
+
+* Store backups in AWS
+* Restore during disaster
+
+### 📌 Benefits
+
+* Lowest cost
+* Simple approach
+
+### 📌 Drawback
+
+* Higher recovery time
+
+---
+
+## 🟡 Pilot Light
+
+* Minimal critical infrastructure always running
+* Scale up when disaster occurs
+
+### 📌 Benefits
+
+* Faster recovery than backup & restore
+* Lower cost than full standby
+
+---
+
+## 🟠 Warm Standby
+
+* Smaller version of production environment active
+* Can quickly scale to full capacity
+
+### 📌 Benefits
+
+* Faster recovery
+* Better availability
+
+---
+
+## 🔴 Multi-Site / Active-Active
+
+* Full production environments in multiple regions
+* Traffic distributed across regions
+
+### 📌 Benefits
+
+* Highest availability
+* Lowest downtime
+
+### 📌 Drawback
+
+* Highest cost
+
+---
+
+## ⚖️ Key Concepts
+
+| Strategy         | Cost    | Recovery Speed |
+| ---------------- | ------- | -------------- |
+| Backup & Restore | Low     | Slow           |
+| Pilot Light      | Medium  | Faster         |
+| Warm Standby     | Higher  | Fast           |
+| Active-Active    | Highest | Fastest        |
+
+---
+
+## 💡 Key Learnings
+
+* DR strategy depends on business requirements
+* Lower downtime usually means higher cost
+* RTO & RPO are critical decision factors
+
+---
+
+## 🚧 Challenges Faced
+
+* Understanding differences between DR strategies
+* Relating cost with recovery speed
+
+---
+
+## 🔁 Next Step
+
+* Monitoring & Logging
+* Security services revision
+
+---
+
+## ⚡ Status
+
+✅ Day 20 Completed
+⏳ 26 Days Remaining
