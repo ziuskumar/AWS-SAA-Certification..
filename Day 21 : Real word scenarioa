@@ -1,0 +1,89 @@
+# 📍 Day 21 — More Solution Architectures
+
+## 🎯 Objective
+
+Understand real-world AWS architecture patterns and optimization strategies.
+
+---
+
+## ⚡ Event Processing
+
+### 📌 Key Concepts
+
+* Event-driven workflows
+* Trigger-based architectures
+* Services communicate asynchronously
+
+---
+
+## 🚀 Caching Strategies
+
+### 📌 Purpose
+
+* Reduce latency
+* Minimize database load
+* Improve application performance
+
+### 📌 Common AWS Services
+
+* CloudFront
+* ElastiCache
+
+---
+
+## 🛡️ Blocking IP Addresses
+
+### 📌 Purpose
+
+* Restrict malicious traffic
+* Improve security posture
+
+### 📌 Common Approaches
+
+* Security Groups
+* NACLs
+* AWS WAF
+
+---
+
+## 💻 High Performance Computing (HPC)
+
+### 📌 What is HPC?
+
+* Large-scale compute-intensive workloads
+* Parallel processing systems
+
+### 📌 Use Cases
+
+* Scientific simulations
+* Machine learning
+* Financial modeling
+
+---
+
+## 💡 Key Learnings
+
+* Architecture decisions impact scalability & performance
+* Caching is critical for optimization
+* Security & networking work together in cloud design
+
+---
+
+## 🚧 Challenges Faced
+
+* Understanding event-driven architecture flow
+* Visualizing HPC infrastructure
+
+---
+
+## 🔁 Next Step
+
+* EC2 High Availability
+* Monitoring & Logging
+
+---
+
+## ⚡ Status
+
+✅ Day 21 Completed
+⏳ 25 Days Remaining
