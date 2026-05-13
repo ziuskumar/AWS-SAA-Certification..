@@ -1,0 +1,79 @@
+# 📍 Day 23 — Athena & Redshift
+
+## 🎯 Objective
+
+Understand analytics and data warehousing services in AWS.
+
+---
+
+## 📊 Amazon Athena
+
+### 📌 What is Athena?
+
+* Serverless query service
+* Query data directly from S3 using SQL
+
+---
+
+### 📌 Key Features
+
+* No infrastructure management
+* Pay per query
+* Works well with S3 data lakes
+
+---
+
+## 🏢 Amazon Redshift
+
+### 📌 What is Redshift?
+
+* Fully managed data warehouse
+* Designed for large-scale analytics
+
+---
+
+### 📌 Key Features
+
+* High-performance querying
+* Columnar storage
+* Optimized for analytics workloads
+
+---
+
+## ⚖️ Athena vs Redshift
+
+| Feature        | Athena           | Redshift                 |
+| -------------- | ---------------- | ------------------------ |
+| Type           | Serverless Query | Data Warehouse           |
+| Storage        | S3               | Internal cluster storage |
+| Best For       | Ad-hoc queries   | Large-scale analytics    |
+| Infrastructure | No management    | Managed cluster          |
+
+---
+
+## 💡 Key Learnings
+
+* Athena is ideal for querying S3 data directly
+* Redshift is optimized for enterprise analytics
+* Data architecture depends on query patterns & scale
+
+---
+
+## 🚧 Challenges Faced
+
+* Understanding data lake vs data warehouse
+* Differentiating Athena and Redshift use cases
+
+---
+
+## 🔁 Next Step
+
+* Monitoring & Logging
+* Practice Questions
+
+---
+
+## ⚡ Status
+
+✅ Day 23 Completed
+⏳ 23 Days Remaining
