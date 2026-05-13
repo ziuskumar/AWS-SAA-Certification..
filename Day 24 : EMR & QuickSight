@@ -1,0 +1,85 @@
+# 📍 Day 24 — EMR & QuickSight
+
+## 🎯 Objective
+
+Understand big data processing and visualization services in AWS.
+
+---
+
+## ⚡ Amazon EMR (Elastic MapReduce)
+
+### 📌 What is EMR?
+
+* Managed big data platform
+* Used for processing massive datasets
+
+---
+
+### 📌 Supported Frameworks
+
+* Hadoop
+* Spark
+* Hive
+
+---
+
+### 📌 Common Use Cases
+
+* Big data analytics
+* Log processing
+* Machine learning pipelines
+
+---
+
+## 📊 Amazon QuickSight
+
+### 📌 What is QuickSight?
+
+* Business Intelligence (BI) service
+* Creates dashboards & visual reports
+
+---
+
+### 📌 Key Features
+
+* Interactive visualization
+* Serverless scalability
+* Integrates with AWS data sources
+
+---
+
+## ⚖️ EMR vs QuickSight
+
+| Service    | Purpose             |
+| ---------- | ------------------- |
+| EMR        | Big data processing |
+| QuickSight | Data visualization  |
+
+---
+
+## 💡 Key Learnings
+
+* EMR handles large-scale processing workloads
+* QuickSight transforms data into business insights
+* Analytics pipelines often combine multiple AWS services
+
+---
+
+## 🚧 Challenges Faced
+
+* Understanding EMR ecosystem
+* Visualizing analytics workflow end-to-end
+
+---
+
+## 🔁 Next Step
+
+* Monitoring & Logging
+* Practice Questions & Exam Simulation
+
+---
+
+## ⚡ Status
+
+✅ Day 24 Completed
+⏳ 22 Days Remaining
